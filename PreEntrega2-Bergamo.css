@@ -1,0 +1,44 @@
+    body{
+        background: url(backgroundimage1.png);
+        background-position: center;
+    }
+    #titulo{
+        color: #FBFBFB;
+    }
+    nav {
+        background-color: #0e1111;
+        position:fixed;
+        top:0;
+        width:100%;
+        left:0;
+        z-index: 99;
+    }
+    #logo {
+        width:110px;
+        height:110px;
+
+    }
+    ul{
+        list-style-type:none;
+        display: flex;
+
+    }
+    li a{
+        text-decoration:none;
+        color:#FBFBFB;
+        margin-right: 40px;
+    }
+    #navbar{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    #fondodiv{ 
+        height: 200%; 
+        background-color:rgba(8, 8, 8, 0.718);
+        margin-left: 15%;
+        margin-right: 15%;
+    }
